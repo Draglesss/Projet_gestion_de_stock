@@ -1,0 +1,98 @@
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+input[type=text], input[type=password] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 6px;
+    align-items: center;
+}
+.button {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 80%;
+  cursor: pointer;
+  font-family: verdana;
+  border-radius: 12px;
+}
+.button:hover {
+  background-color: #0c2d47
+} 
+.button:active {
+  transform: translateY(4px);
+}
+h1 {
+  color : red;
+  font-family: verdana;
+  font-size: 15px;
+  text-align: center;
+}
+.title {
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  font-size: 90px;
+  color: white;
+}
+.border {
+  border:2px; 
+  border-style: solid;
+  border-spacing: 500px;
+  border-block-width: medium;
+  border-color:white; 
+  padding: 1em;
+  font-size:20px;
+  border-radius: 20px;
+  width: 1000px;
+  height: 400px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #2a2c2c;
+}
+form i {
+margin-bottom: 24px;
+margin-left: -60px;
+margin-right: 35px;
+cursor: pointer;
+font-size: 22px;
+}
+p {
+    border:2px; 
+    border-style: solid;
+    border-spacing: 500px;
+    border-block-width: medium;
+    border-color:white; 
+    padding: 1em;
+    font-size:60px;
+    border-radius: 20px;
+}
+.disclaimer {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 40px;
+  margin: 2%;
+}

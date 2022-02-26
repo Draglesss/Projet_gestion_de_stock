@@ -1,0 +1,171 @@
+body {
+  background: linear-gradient(-45deg, #C06C84, #6C5B7B, #355C7D);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+@keyframes gradient {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
+}
+.title {
+    color: white;
+    font-family: verdana;
+    font-size: 75px;
+    text-align: center;
+}
+.button , .article, .fournisseur, .categorie{ /*  Simple button */
+    background-color: #355c7d;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    font-family: verdana;
+    border-radius: 18px;
+    cursor: pointer;
+    width: 50%;
+}
+.border {
+  border:2px; 
+  border-style: solid;
+  border-spacing: 500px;
+  border-block-width: medium;
+  border-color:white; 
+  padding: 1em;
+  font-size:20px;
+  border-radius: 20px;
+  width: 1000px;
+  height: 400px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #2a2c2c;
+}
+.button:hover {
+    background-color: #243d53;
+}
+.button:active {
+    background-color: #152330;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.admin {
+    background-color: #bf6b83;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    font-family: verdana;
+    border-radius: 18px;
+    cursor: pointer;
+    width: 50%;
+}
+.admin:hover {
+    background-color: #8b4f60;
+}
+.admin:active {
+    background-color: #522c36;
+    box-shadow: 0 5px #666;
+   transform: translateY(4px);
+}
+.border{
+  border:5px;
+  border-style: solid;
+  border-spacing: 500px;
+  border-block-width: medium;
+  border-color:white;
+  padding: 1em;
+  font-size:50px;
+  border-radius: 20px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  }
+    @import url(https://fonts.googleapis.com/css?family=Oswald:400);
+.navigation {
+  width: 100%;
+  background-color: #040419;
+}
+
+img {
+  width: 25px;
+  border-radius: 50px;
+  float: left;
+}
+
+.logout {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  position: relative;
+  right: -18px;
+  bottom: -4px;
+  overflow: hidden;
+  letter-spacing: 2px;
+  opacity: 0;
+  transition: opacity .45s;
+  -webkit-transition: opacity .35s;
+}
+.signout {
+  text-decoration: none;
+  float: right;
+  padding: 12px;
+  margin: 15px;
+  color: white;
+  width: 20px;
+  transition: width .35s;
+  -webkit-transition: width .35s;
+  overflow: hidden;
+}
+
+a:hover {
+  width: 120px;
+}
+
+a:hover .logout{
+  opacity: .9;
+}
+
+a {
+  text-decoration: none;
+}
+table {
+  border-radius: 20px;
+}
+.center {
+  width: 1000px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.background1 {
+  background: rgb(0,0,0);
+  background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(13,33,41,1) 100%);
+  color: white;
+}
+.background2 {
+  background: rgb(0,0,0);
+  background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgb(49, 10, 10) 100%);
+  color: white;
+}
+.background3 {
+  background: rgb(0,0,0);
+  background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgb(25, 53, 8) 100%);
+  color: white;
+}
